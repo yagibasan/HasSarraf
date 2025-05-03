@@ -1,0 +1,40 @@
+{
+  "serbestAlanSira": 0,
+  "kayanYaziSira": 1,
+  "fiyatListesiSira": 2,
+  "serbestAlan": {
+    "kayitAdi": "deneme2",
+    "aktif": false,
+    "font": "Tahoma, 8.25pt",
+    "yukseklik": 20,
+    "yaziRengi": "GreenYellow",
+    "arkaPlanRengi": "Black",
+    "icerikTuru": "metin",
+    "icerik": "ahmet",
+    "kayanYaziHizi": 10,
+    "solaYasli": true
+  },
+  "kayanYazi": {
+    "kayitAdi": "kayanYazi1",
+    "aktif": false,
+    "font": "Microsoft Sans Serif, 15.75pt, style=Bold, Italic",
+    "yukseklik": 67,
+    "yaziRengi": "Yellow",
+    "arkaPlanRengi": "Black",
+    "icerikTuru": "metin",
+    "icerik": "ahmet2",
+    "kayanYaziHizi": 9,
+    "solaYasli": false
+  },
+  "fiyatListesi": {
+    "aktif": true,
+    "font": "Consolas, 24pt, style=Bold",
+    "yukseklik": -1,
+    "yaziRengi": "White",
+    "arkaPlanRengi": "Black",
+    "icerikTuru": "metin",
+    "icerik": "METİN YAZISI",
+    "kayanYaziHizi": 10,
+    "solaYasli": false
+  }
+}

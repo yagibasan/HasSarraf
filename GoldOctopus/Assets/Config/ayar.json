@@ -1,0 +1,18 @@
+{
+	"magazaAdi":"HAS SARRAF",
+  "kaynak": "saglamoglu",
+  "tabelaSablonu": "sablon2",
+  "guncellemePeriyodu": 15,
+  "korumaModu": true,
+  "korumaOrani": 5.34,
+  "tabeladaGozukecekUrunSayisi": 10,
+  "sarrafiyeOndalikAdeti": 2,
+  "sarrafiyeOndalikGoster": false,
+  "dovizOndalikAdeti": 4,
+  "dovizOndalikGoster": true,
+  "milyemGoster": true,
+  "gosterilecekUrunAdeti": 10,
+  "orijinalDegeriGoster": true,
+  "farkDegeriniGoster": true,
+  "otomatikVeriAl": false
+}

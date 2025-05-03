@@ -1,0 +1,1267 @@
+[
+  {
+    "adi": "TEST ÜRÜNÜ",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 1,
+    "sira": 40,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "0_25_gr_paketli_22",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "0.50 GR 22K  ",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 2,
+    "sira": 20,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "0_50_gr_paketli_22",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "0.50 GR KLP 22K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 3,
+    "sira": 30,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "050_gr_kulplu_22",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "22 AYAR GRAM ALTIN",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 4,
+    "sira": 20,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "1_gr_paketli_22",
+    "alisMarjYontemi": {
+      "tur": "oransal",
+      "oransalDeger": 3.0,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 123.0
+    }
+  },
+  {
+    "adi": "1 GR KLP 22K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 5,
+    "sira": 50,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "1_gr_kulplu_22",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "2 GR 22K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 6,
+    "sira": 60,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "2_gr_paketli_22",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "0.50 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 7,
+    "sira": 70,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "050_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "24 AYAR GRAM ALTIN",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 8,
+    "sira": 10,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "1_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 3.5,
+      "miktarDeger": 100.0
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 99.0
+    }
+  },
+  {
+    "adi": "2 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 9,
+    "sira": 90,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "2.5 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 10,
+    "sira": 100,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "2_50_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "5 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 11,
+    "sira": 110,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "5_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "10 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 12,
+    "sira": 120,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "10_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "20 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 13,
+    "sira": 130,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "20_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "50 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 14,
+    "sira": 140,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "50_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "100 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 15,
+    "sira": 150,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "100_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "250 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 16,
+    "sira": 160,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "250_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "500 GR 24K",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 4,
+    "grupAdi": "Gram Altın",
+    "icon": "",
+    "id": 17,
+    "sira": 170,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "500_gr_24",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "YENİ TARİH ÇEYREK",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 1,
+    "sira": 80,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_ceyrek_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ESKİ TARİH ÇEYREK",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 2,
+    "sira": 90,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_ceyrek_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "YENİ TARİH YARIM",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 3,
+    "sira": 60,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_yarim_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ESKİ TARİH YARIM",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 4,
+    "sira": 70,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_yarim_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "Y. TAM",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 5,
+    "sira": 50,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_tam_atin_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "TAM",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 6,
+    "sira": 60,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_tam_atin_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "Y. GREMSE",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 7,
+    "sira": 70,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_gremse_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "GREMSE",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 8,
+    "sira": 80,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_gremse_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "YENİ TARİH ZİYNET LİRA",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 9,
+    "sira": 40,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_ziynet_5_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ESKİ TARİH ZİYNET LİRA",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 10,
+    "sira": 50,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_ziynet_5_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 25.0
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "Y. ATA ÇEYREK",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 11,
+    "sira": 110,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_ata_ceyrek_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ATA ÇEYREK",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 12,
+    "sira": 120,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_ata_ceyrek_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "Y. ATA YARIM",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 13,
+    "sira": 130,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_ata_yarim_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ATA YARIM",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 14,
+    "sira": 140,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_ata_yarim_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "Y. ATA LIRA",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 15,
+    "sira": 150,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_ata_lira_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ATA LİRA",
+    "birim": "adet",
+    "ortakUrun": true,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 16,
+    "sira": 30,
+    "tabeladaGoster": true,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_ata_lira_try",
+    "alisMarjYontemi": {
+      "tur": "orijinal",
+      "oransalDeger": 1.0,
+      "miktarDeger": 50.0
+    },
+    "satisMarjYontemi": {
+      "tur": "orijinal",
+      "oransalDeger": 5.2,
+      "miktarDeger": 200.0
+    }
+  },
+  {
+    "adi": "Y. ATA 2.5",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 17,
+    "sira": 170,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_ata_2_5_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ATA 2.5",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 18,
+    "sira": 180,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_ata_2_5_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "Y. ATA 5",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 19,
+    "sira": 190,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "yeni_ata_5_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ATA 5",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 20,
+    "sira": 200,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eski_ata_5_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "REŞAT LİRA",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 21,
+    "sira": 210,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "resat_lira_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "REŞAT 5",
+    "birim": "adet",
+    "ortakUrun": false,
+    "grup": 3,
+    "grupAdi": "Sarrafiye",
+    "icon": "",
+    "id": 22,
+    "sira": 20,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "resat_5_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "HAS ALTIN",
+    "birim": "gram",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 1,
+    "sira": 10,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "has_altin",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "ALTIN/ONS",
+    "birim": "ONS",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 2,
+    "sira": 20,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "ons",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "USD/KG",
+    "birim": "gram",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 3,
+    "sira": 30,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "usd_kg",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "EUR/KG",
+    "birim": "gram",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 4,
+    "sira": 40,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eur_kg",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "GÜM/ONS",
+    "birim": "gram",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 5,
+    "sira": 50,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "xag_usd",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "GÜM/TL",
+    "birim": "gram",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 6,
+    "sira": 60,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "gum_trl",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "GÜM/USD",
+    "birim": "gram",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 7,
+    "sira": 70,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "gum_usd",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "GÜM/EUR",
+    "birim": "gram",
+    "ortakUrun": false,
+    "grup": 1,
+    "grupAdi": "Serbest Piyasa Altın",
+    "icon": "",
+    "id": 8,
+    "sira": 80,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "gum_eur",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "USD/TL",
+    "birim": "USD",
+    "ortakUrun": true,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 1,
+    "sira": 100,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "usd_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "EUR/TL",
+    "birim": "EUR",
+    "ortakUrun": false,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 2,
+    "sira": 20,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "eur_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "GBP/TRY",
+    "birim": "GBP",
+    "ortakUrun": false,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 3,
+    "sira": 30,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "gbp_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "CHF/TRY",
+    "birim": "CHF",
+    "ortakUrun": false,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 4,
+    "sira": 40,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "chf_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "JPY/TRY",
+    "birim": "JPY",
+    "ortakUrun": false,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 5,
+    "sira": 50,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "jpy_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "CAD/TRY",
+    "birim": "CAD",
+    "ortakUrun": false,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 6,
+    "sira": 60,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "cad_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "AUD/TRY",
+    "birim": "AUD",
+    "ortakUrun": false,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 7,
+    "sira": 70,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "aud_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  },
+  {
+    "adi": "SAR/TRY",
+    "birim": "SAR",
+    "ortakUrun": false,
+    "grup": 2,
+    "grupAdi": "Serbest Piyasa Döviz",
+    "icon": "",
+    "id": 8,
+    "sira": 80,
+    "tabeladaGoster": false,
+    "anaEkrandaGoster": false,
+    "urunKod": "sar_try",
+    "alisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    },
+    "satisMarjYontemi": {
+      "tur": "miktar",
+      "oransalDeger": 2.2,
+      "miktarDeger": 12.5
+    }
+  }
+]

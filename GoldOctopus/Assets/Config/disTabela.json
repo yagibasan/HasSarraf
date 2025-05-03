@@ -1,0 +1,83 @@
+[
+  {
+    "sira": 10,
+    "urunAdi": "24 AYAR GRAM ALTIN",
+    "alis": 4230.0,
+    "satis": 4273.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "4.273",
+    "alisText": "4.230"
+  },
+  {
+    "sira": 20,
+    "urunAdi": "22 AYAR GRAM ALTIN",
+    "alis": 3899.0,
+    "satis": 3997.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "3.997",
+    "alisText": "3.899"
+  },
+  {
+    "sira": 30,
+    "urunAdi": "ATA LİRA",
+    "alis": 27730.0,
+    "satis": 27855.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "27.855",
+    "alisText": "27.730"
+  },
+  {
+    "sira": 40,
+    "urunAdi": "YENİ TARİH ZİYNET LİRA",
+    "alis": 133396.0,
+    "satis": 135506.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "135.506",
+    "alisText": "133.396"
+  },
+  {
+    "sira": 50,
+    "urunAdi": "ESKİ TARİH ZİYNET LİRA",
+    "alis": 132993.0,
+    "satis": 133838.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "133.838",
+    "alisText": "132.993"
+  },
+  {
+    "sira": 60,
+    "urunAdi": "YENİ TARİH YARIM",
+    "alis": 13556.0,
+    "satis": 13644.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "13.644",
+    "alisText": "13.556"
+  },
+  {
+    "sira": 70,
+    "urunAdi": "ESKİ TARİH YARIM",
+    "alis": 13382.0,
+    "satis": 13530.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "13.530",
+    "alisText": "13.382"
+  },
+  {
+    "sira": 80,
+    "urunAdi": "YENİ TARİH ÇEYREK",
+    "alis": 6782.0,
+    "satis": 6832.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "6.832",
+    "alisText": "6.782"
+  },
+  {
+    "sira": 90,
+    "urunAdi": "ESKİ TARİH ÇEYREK",
+    "alis": 6702.0,
+    "satis": 6774.0,
+    "zaman": "27.04.2025 18:32:56",
+    "satisText": "6.774",
+    "alisText": "6.702"
+  }
+]

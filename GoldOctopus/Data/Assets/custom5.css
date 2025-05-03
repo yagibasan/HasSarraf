@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+/* Used Google Fonts */
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Mansalva',
+cursive;
+font-family: 'Lato',
+sans-serif;
+font-family: 'Open Sans',
+sans-serif;
+font-family: 'Oswald',
+sans-serif;
+font-family: 'Lora',
+serif;
+font-family: 'Muli',
+sans-serif;
+font-family: 'Lobster',
+cursive;
+font-family: 'Cinzel',
+serif;
+font-family: 'Bangers',
+cursive;
+
+/* Used Google Fonts */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.table{
+    margin: 0px; 
+}
+
+.sirket-adi-row {
+    background: #fff;
+    text-align: center;
+    border: none;
+    border: 1px solid red;
+
+}
+
+.sirket-adi {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    color: #34495e;
+    text-align: center;
+}
+
+.sirket-adi hr {
+    height: 1px;
+    margin-top: 0px;
+    color: #34495e;
+}
+ 
+
+.line1 {
+    letter-spacing: 9px;
+    font-size: 40px; 
+    font-weight: bold; 
+     margin-top: -10px;  
+}
+
+
+.line2 {
+    letter-spacing: 7px;    
+    
+    font-size: 26px;
+    margin-top: -15px; font-weight: bold; 
+}
+
+.line3 {
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 60px;
+    border-top: solid 1px #34495e;
+    padding-bottom: 5px;  
+}
+
+
+
+.kayan-yazi {
+    font-size: 22px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background: #34495e;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 3px;
+    line-height: 36px;
+    height: 36px;
+    font-weight: bold;
+    margin: -1px;
+}
+
+.alerts-border {
+    border: 4px #34495e solid;
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: #fff;
+    }
+}
+
+
+.footer-label {
+    font-size: 18px;
+    line-height: 50px; 
+    letter-spacing: 0.2px;
+    background-color: maroon;
+    text-align: center;
+    border-top: solid 1px white;
+}
+.footer-label span {
+   font-weight: bold;
+   
+   letter-spacing: 2px;
+   padding: 1px 4px;
+   border:solid 1px white;
+   background-color: white;
+   color: maroon;
+   border-radius: 8px;
+}
+.container
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    max-width:100% !important;
+}
+
+.row{
+    height: 48px;
+    line-height: 48px;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.urunAdi {
+
+    font-size: 100%;
+    white-space: nowrap;
+    border-top: solid 1px #D4AF37;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+     font-size: 18px;
+
+}
+
+.alis-deger {
+
+    text-align: right;
+    white-space: nowrap;
+    border-top: solid 1px #D4AF37;
+    vertical-align: middle;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+
+.satis-deger {
+    text-align: right;
+    white-space: nowrap;
+    border-top: solid 1px #D4AF37;
+    vertical-align: middle;
+    font-weight: bold;
+    color: white;
+
+}
+
+.oddRow {
+    background-color: #444;
+}
