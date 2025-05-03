@@ -1,0 +1,362 @@
+[
+	{
+		"urunKodu": "has_altin",
+		"urunKoduSaglamoglu": "has-altin",
+		"urunKoduHarem": "ALTIN"
+	},
+	{
+		"urunKodu": "ons",
+		"urunKoduSaglamoglu": "ons",
+		"urunKoduHarem": "ONS"
+	},
+	{
+		"urunKodu": "usd_kg",
+		"urunKoduSaglamoglu": "usd-kg",
+		"urunKoduHarem": "USDKG"
+	},
+	{
+		"urunKodu": "eur_kg",
+		"urunKoduSaglamoglu": "eur-kg",
+		"urunKoduHarem": "EURKG"
+	},
+	{
+		"urunKodu": "xag_usd",
+		"urunKoduSaglamoglu": "xag-usd",
+		"urunKoduHarem": "XAGUSD"
+	},
+	{
+		"urunKodu": "gum_trl",
+		"urunKoduSaglamoglu": "gum-trl",
+		"urunKoduHarem": "GUMUSTRY"
+	},
+	{
+		"urunKodu": "gum_usd",
+		"urunKoduSaglamoglu": "gum-usd",
+		"urunKoduHarem": "GUMUSUSD"
+	},
+	{
+		"urunKodu": "gum_eur",
+		"urunKoduSaglamoglu": "gum-eur",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "usd_try",
+		"urunKoduSaglamoglu": "usd-try",
+		"urunKoduHarem": "USDTRY"
+	},
+	{
+		"urunKodu": "eur_try",
+		"urunKoduSaglamoglu": "eur-try",
+		"urunKoduHarem": "EURTRY"
+	},
+	{
+		"urunKodu": "gbp_try",
+		"urunKoduSaglamoglu": "gbp-try",
+		"urunKoduHarem": "GBPTRY"
+	},
+	{
+		"urunKodu": "chf_try",
+		"urunKoduSaglamoglu": "chf-try",
+		"urunKoduHarem": "CHFTRY"
+	},
+	{
+		"urunKodu": "jpy_try",
+		"urunKoduSaglamoglu": "jpy-try",
+		"urunKoduHarem": "JPYTRY"
+	},
+	{
+		"urunKodu": "cad_try",
+		"urunKoduSaglamoglu": "cad-try",
+		"urunKoduHarem": "CADTRY"
+	},
+	{
+		"urunKodu": "aud_try",
+		"urunKoduSaglamoglu": "aud-try",
+		"urunKoduHarem": "AUDTRY"
+	},
+	{
+		"urunKodu": "sar_try",
+		"urunKoduSaglamoglu": "sar-try",
+		"urunKoduHarem": "SARTRY"
+	},
+	{
+		"urunKodu": "eur_gbp",
+		"urunKoduSaglamoglu": "eur-gbp",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "eur_usd",
+		"urunKoduSaglamoglu": "eur-usd",
+		"urunKoduHarem": "EURUSD"
+	},
+	{
+		"urunKodu": "gbp_usd",
+		"urunKoduSaglamoglu": "gbp-usd",
+		"urunKoduHarem": "GBPUSD"
+	},
+	{
+		"urunKodu": "usd_chf",
+		"urunKoduSaglamoglu": "usd-chf",
+		"urunKoduHarem": "USDCHF"
+	},
+	{
+		"urunKodu": "usd_jpy",
+		"urunKoduSaglamoglu": "usd-jpy",
+		"urunKoduHarem": "USDJPY"
+	},
+	{
+		"urunKodu": "usd_cad",
+		"urunKoduSaglamoglu": "usd-cad",
+		"urunKoduHarem": "USDCAD"
+	},
+	{
+		"urunKodu": "aud_usd",
+		"urunKoduSaglamoglu": "aud-usd",
+		"urunKoduHarem": "AUDUSD"
+	},
+	{
+		"urunKodu": "usd_sar",
+		"urunKoduSaglamoglu": "usd-sar",
+		"urunKoduHarem": "USDSAR"
+	},
+	{
+		"urunKodu": "yeni_ceyrek_try",
+		"urunKoduSaglamoglu": "yeni-ceyrek-try",
+		"urunKoduHarem": "CEYREK_YENI"
+	},
+	{
+		"urunKodu": "eski_ceyrek_try",
+		"urunKoduSaglamoglu": "eski-ceyrek-try",
+		"urunKoduHarem": "CEYREK_ESKI"
+	},
+	{
+		"urunKodu": "yeni_yarim_try",
+		"urunKoduSaglamoglu": "yeni-yarim-try",
+		"urunKoduHarem": "YARIM_YENI"
+	},
+	{
+		"urunKodu": "eski_yarim_try",
+		"urunKoduSaglamoglu": "eski-yarim-try",
+		"urunKoduHarem": "YARIM_ESKI"
+	},
+	{
+		"urunKodu": "yeni_tam_atin_try",
+		"urunKoduSaglamoglu": "yeni-tam-atin-try",
+		"urunKoduHarem": "TEK_YENI"
+	},
+	{
+		"urunKodu": "eski_tam_atin_try",
+		"urunKoduSaglamoglu": "eski-tam-atin-try",
+		"urunKoduHarem": "TEK_ESKI"
+	},
+	{
+		"urunKodu": "yeni_gremse_try",
+		"urunKoduSaglamoglu": "yeni-gremse-try",
+		"urunKoduHarem": "GREMESE_YENI"
+	},
+	{
+		"urunKodu": "eski_gremse_try",
+		"urunKoduSaglamoglu": "eski-gremse-try",
+		"urunKoduHarem": "GREMESE_ESKI"
+	},
+	{
+		"urunKodu": "yeni_ziynet_5_try",
+		"urunKoduSaglamoglu": "yeni-ziynet-5-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "eski_ziynet_5_try",
+		"urunKoduSaglamoglu": "eski-ziynet-5-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "yeni_ata_ceyrek_try",
+		"urunKoduSaglamoglu": "yeni-ata-ceyrek-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "eski_ata_ceyrek_try",
+		"urunKoduSaglamoglu": "eski-ata-ceyrek-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "yeni_ata_yarim_try",
+		"urunKoduSaglamoglu": "yeni-ata-yarim-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "eski_ata_yarim_try",
+		"urunKoduSaglamoglu": "eski-ata-yarim-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "yeni_ata_lira_try",
+		"urunKoduSaglamoglu": "yeni-ata-lira-try",
+		"urunKoduHarem": "ATA_YENI"
+	},
+	{
+		"urunKodu": "eski_ata_lira_try",
+		"urunKoduSaglamoglu": "eski-ata-lira-try",
+		"urunKoduHarem": "ATA_ESKI"
+	},
+	{
+		"urunKodu": "yeni_ata_2_5_try",
+		"urunKoduSaglamoglu": "yeni-ata-2-5-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "eski_ata_2_5_try",
+		"urunKoduSaglamoglu": "eski-ata-2-5-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "yeni_ata_5_try",
+		"urunKoduSaglamoglu": "yeni-ata-5-try",
+		"urunKoduHarem": "ATA5_YENI"
+	},
+	{
+		"urunKodu": "eski_ata_5_try",
+		"urunKoduSaglamoglu": "eski-ata-5-try",
+		"urunKoduHarem": "ATA5_ESKI"
+	},
+	{
+		"urunKodu": "resat_lira_try",
+		"urunKoduSaglamoglu": "resat-lira-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "resat_5_try",
+		"urunKoduSaglamoglu": "resat-5-try",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "0_25_gr_paketli_22",
+		"urunKoduSaglamoglu": "0-25-gr-paketli-22",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "0_50_gr_paketli_22",
+		"urunKoduSaglamoglu": "0-50-gr-paketli-22",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "050_gr_kulplu_22",
+		"urunKoduSaglamoglu": "050-gr-kulplu-22",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "1_gr_paketli_22",
+		"urunKoduSaglamoglu": "1-gr-paketli-22",
+		"urunKoduHarem": "AYAR22"
+	},
+	{
+		"urunKodu": "1_gr_kulplu_22",
+		"urunKoduSaglamoglu": "1-gr-kulplu-22",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "2_gr_paketli_22",
+		"urunKoduSaglamoglu": "2-gr-paketli-22",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "050_gr_24",
+		"urunKoduSaglamoglu": "050-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "1_gr_24",
+		"urunKoduSaglamoglu": "1-gr-24",
+		"urunKoduHarem": "KULCEALTIN"
+	},
+	{
+		"urunKodu": "2_gr_24",
+		"urunKoduSaglamoglu": "2-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "2_50_gr_24",
+		"urunKoduSaglamoglu": "2-50-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "5_gr_24",
+		"urunKoduSaglamoglu": "5-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "10_gr_24",
+		"urunKoduSaglamoglu": "10-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "20_gr_24",
+		"urunKoduSaglamoglu": "20-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "50_gr_24",
+		"urunKoduSaglamoglu": "50-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "100_gr_24",
+		"urunKoduSaglamoglu": "100-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "250_gr_24",
+		"urunKoduSaglamoglu": "250-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "500_gr_24",
+		"urunKoduSaglamoglu": "500-gr-24",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "5_gr_gum",
+		"urunKoduSaglamoglu": "5-gr-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "10_gr_gum",
+		"urunKoduSaglamoglu": "10-gr-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "20_gr_gum",
+		"urunKoduSaglamoglu": "20-gr-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "50_gr_gum",
+		"urunKoduSaglamoglu": "50-gr-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "100_gr_gum",
+		"urunKoduSaglamoglu": "100-gr-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "250_gr_gum",
+		"urunKoduSaglamoglu": "250-gr-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "500_gr_gum",
+		"urunKoduSaglamoglu": "500-gr-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "1_kg_gum",
+		"urunKoduSaglamoglu": "1-kg-gum",
+		"urunKoduHarem": "YOK"
+	},
+	{
+		"urunKodu": "granur_gum",
+		"urunKoduSaglamoglu": "granur-gum",
+		"urunKoduHarem": "YOK"
+	}
+]

@@ -1,0 +1,21 @@
+ [
+        {
+            "adi": "SAĞLAMOĞLU",
+            "apiUrls": [
+                "https://saglamoglualtin.com/component/tab-group/1",
+                "https://saglamoglualtin.com/component/tab-group/2"
+            ],
+            "id": 1,
+            "kod": "saglamoglu",
+            "webUrl": "https://www.saglamoglu.com.tr"
+        },
+        {
+            "adi": "HAREM",
+            "apiUrls": [
+                "https://canlipiyasalar.haremaltin.com/tmp/altin.json"
+            ],
+            "id": 2,
+            "kod": "harem",
+            "webUrl": "https://canlipiyasalar.haremaltin.com/"
+        }
+    ]

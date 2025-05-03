@@ -1,0 +1,38 @@
+[
+  {
+    "kayitAdi": "deneme2",
+    "aktif": false,
+    "font": "Tahoma, 8.25pt",
+    "yukseklik": 20,
+    "yaziRengi": "GreenYellow",
+    "arkaPlanRengi": "Black",
+    "icerikTuru": "metin",
+    "icerik": "ahmet",
+    "kayanYaziHizi": 10,
+    "solaYasli": true
+  },
+  {
+    "kayitAdi": "deneme3",
+    "aktif": true,
+    "font": "Tahoma, 8.25pt",
+    "yukseklik": 20,
+    "yaziRengi": "Yellow",
+    "arkaPlanRengi": "192, 80, 77",
+    "icerikTuru": "metin",
+    "icerik": "deneme3",
+    "kayanYaziHizi": 10,
+    "solaYasli": false
+  },
+  {
+    "kayitAdi": "ahmet",
+    "aktif": false,
+    "font": "Tahoma, 8.25pt",
+    "yukseklik": 20,
+    "yaziRengi": "GreenYellow",
+    "arkaPlanRengi": "Black",
+    "icerikTuru": "metin",
+    "icerik": "ahmet",
+    "kayanYaziHizi": 10,
+    "solaYasli": true
+  }
+]

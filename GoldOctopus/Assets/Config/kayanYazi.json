@@ -1,0 +1,26 @@
+[
+  {
+    "kayitAdi": "kayanYazi1",
+    "aktif": false,
+    "font": "Microsoft Sans Serif, 15.75pt, style=Bold, Italic",
+    "yukseklik": 30,
+    "yaziRengi": "255, 255, 0",
+    "arkaPlanRengi": "Black",
+    "icerikTuru": "metin",
+    "icerik": "ahmet2",
+    "kayanYaziHizi": 10,
+    "solaYasli": false
+  },
+  {
+    "kayitAdi": "kayanYazi3",
+    "aktif": true,
+    "font": "Microsoft YaHei UI, 15.75pt, style=Bold, Italic",
+    "yukseklik": 30,
+    "yaziRengi": "192, 80, 77",
+    "arkaPlanRengi": "Black",
+    "icerikTuru": "metin",
+    "icerik": "ahmet",
+    "kayanYaziHizi": 10,
+    "solaYasli": false
+  }
+]
