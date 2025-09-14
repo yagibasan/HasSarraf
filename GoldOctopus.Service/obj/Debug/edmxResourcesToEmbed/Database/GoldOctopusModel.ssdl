@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GoldOctopusDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Ayar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kod" Type="nvarchar" MaxLength="50" />
+    <Property Name="GorselDeger" Type="nvarchar" MaxLength="50" />
+    <Property Name="Deger" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tip" Type="int" />
+    <Property Name="WebUrl" Type="nvarchar" MaxLength="255" />
+    <Property Name="Parametre1" Type="nvarchar" MaxLength="255" />
+    <Property Name="Parametre2" Type="nvarchar" MaxLength="255" />
+    <Property Name="Parametre3" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="DisTabela">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sira" Type="int" />
+    <Property Name="UrunAdi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Alis" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Satis" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Zaman" Type="datetime" />
+    <Property Name="SatisText" Type="nvarchar" MaxLength="50" />
+    <Property Name="AlisText" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Grup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="1" />
+    <Property Name="Sira" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Kaynak">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Kod" Type="nvarchar" MaxLength="50" />
+    <Property Name="WebUrl" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="KaynakId" Type="int" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Birim" Type="nvarchar" MaxLength="1" />
+    <Property Name="GrupId" Type="int" />
+    <Property Name="Icon" Type="nvarchar" MaxLength="200" />
+    <Property Name="Sira" Type="int" />
+    <Property Name="TabeladaGoster" Type="bit" />
+    <Property Name="AnaEkrandaGoster" Type="bit" />
+    <Property Name="UrunKod" Type="nvarchar" MaxLength="100" />
+    <Property Name="AlisMarjTur" Type="nvarchar" MaxLength="50" />
+    <Property Name="AlisOransal" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="AlisMiktar" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SatisMarjTur" Type="nvarchar" MaxLength="50" />
+    <Property Name="SatisOransal" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="SatisMiktar" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="MilyemDegeri" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SaglamogluUrunKod" Type="nvarchar" MaxLength="50" />
+    <Property Name="HaremKod" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="fk_urungrup_grupid">
+    <End Role="Grup" Type="Self.Grup" Multiplicity="0..1" />
+    <End Role="Urun" Type="Self.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grup">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="GrupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GoldOctopusDBModelStoreContainer">
+    <EntitySet Name="Ayar" EntityType="Self.Ayar" Schema="goldOctopus" store:Type="Tables" />
+    <EntitySet Name="DisTabela" EntityType="Self.DisTabela" Schema="goldOctopus" store:Type="Tables" />
+    <EntitySet Name="Grup" EntityType="Self.Grup" Schema="goldOctopus" store:Type="Tables" />
+    <EntitySet Name="Kaynak" EntityType="Self.Kaynak" Schema="goldOctopus" store:Type="Tables" />
+    <EntitySet Name="Urun" EntityType="Self.Urun" Schema="goldOctopus" store:Type="Tables" />
+    <AssociationSet Name="fk_urungrup_grupid" Association="Self.fk_urungrup_grupid">
+      <End Role="Grup" EntitySet="Grup" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

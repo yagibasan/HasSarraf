@@ -50,7 +50,10 @@ namespace GoldOctopus.Library.Config
         public bool FarkDegeriniGoster { get; set; } = true;
 
         [JsonProperty("otomatikVeriAl")]
-        public bool OtomatikVeriAl { get; set; } = true; 
+        public bool OtomatikVeriAl { get; set; } = true;
+
+        [JsonProperty("simulasyon")]
+        public bool Simulasyon { get; set; } = false;
     } 
 
 }

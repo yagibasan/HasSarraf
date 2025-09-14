@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+
+/* Tüm yazı tiplerinde sadece Oswald kullanılacak */
+body,
+html,
+* {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-stretch: condensed;
+}
+
+/* Used Google Fonts */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: yellow;
+    color: white;
+
+
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.table {
+    margin: 0px;
+}
+
+.sirket-adi-row {
+    background: #fff;
+    text-align: center;
+    border: none;
+    border: 1px solid red;
+
+}
+
+.sirket-adi {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    color: #34495e;
+    text-align: center;
+}
+
+.sirket-adi hr {
+    height: 1px;
+    margin-top: 0px;
+    color: #34495e;
+}
+
+
+.line1 {
+    letter-spacing: 9px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+
+.line2 {
+    letter-spacing: 7px;
+
+    font-size: 26px;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.line3 {
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 60px;
+    border-top: solid 1px #34495e;
+    padding-bottom: 5px;
+}
+
+
+
+.kayan-yazi {
+    font-size: 22px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background: #34495e;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 3px;
+    line-height: 36px;
+    height: 36px;
+    font-weight: bold;
+    margin: -1px;
+}
+
+.alerts-border {
+    border: 4px #34495e solid;
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: #fff;
+    }
+}
+
+
+.footer-label {
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    background-color: maroon;
+    text-align: center;
+    border-top: solid 1px white;
+}
+
+.footer-label span {
+    font-weight: bold;
+    padding: 1px 4px;
+    border: solid 1px white;
+    background-color: white;
+    color: maroon;
+    border-radius: 8px;
+}
+
+.container {
+    padding: 0px 10px;
+    max-width: 100% !important;
+    position: relative;
+}
+
+.row {
+    height: 42px;
+    vertical-align: middle;
+    font-size: 20px;
+    letter-spacing: -1px;
+    background-color: yellow;
+    transform: scaleY(1.3) !important;
+
+
+}
+
+.urunAdi {
+    white-space: nowrap;
+    /*border-top: solid 1px #D4AF37;*/
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    max-width: 46% !important;
+    width: 46% !important;
+    padding-left: 5px;
+    font-size: 120%;
+
+}
+
+.alis-deger {
+
+    text-align: center !important;
+    padding: 0px;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 120%;
+    border: 1px solid black;
+    max-width: 27% !important;
+    width: 27% !important;
+    background-color: maroon;
+    color: lightred;
+    text-shadow: 2px 2px black;
+
+}
+
+
+.satis-deger {
+    text-align: center !important;
+    white-space: nowrap;
+    /*border-top: solid 1px #D4AF37;*/
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 120%;
+    /*-shadow: 2px 2px white;*/
+    border: 1px solid black;
+    max-width: 27% !important;
+    width: 27% !important;
+    background-color: darkgreen;
+    color: lime;
+    text-shadow: 2px 2px black;
+
+}
+
+.oddRow {}

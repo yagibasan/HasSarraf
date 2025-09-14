@@ -53,7 +53,13 @@ namespace GoldOctopus.Adaptors
                                     if (groupCount > 0)
                                     {
                                         decimal alis = product.Forex.Groups[0].Ask;
-                                        decimal satis = product.Forex.Groups[0].Bid; 
+                                        decimal satis = product.Forex.Groups[0].Bid;
+
+                                        if(UtilBL.Ayarlar.Simulasyon)
+                                        {
+                                            alis -= dateTime.Second;
+                                            satis += dateTime.Second;
+                                        }
 
                                         tabelaFiyat.AlisOrijinal = alis;
                                         tabelaFiyat.SatisOrijinal = satis;

@@ -30,6 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition13 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition14 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition15 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition16 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition17 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition18 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition3 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition1 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition2 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition3 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
@@ -37,13 +44,6 @@
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition5 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
             DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition6 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
             DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition1 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition7 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition8 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition9 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition10 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition11 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition12 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition2 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.bar1 = new DevExpress.XtraBars.Bar();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
@@ -124,7 +124,7 @@
             this.ucUrunHavuzu1 = new GoldOctopus.Controls.ucUrunHavuzu();
             this.pageManuelTabela = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.ucManuelTabela1 = new GoldOctopus.Controls.ucManuelTabela();
-            this.pageKayanYazi = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.pageTabelaDuzeni = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.ucTabelaMizanpaj1 = new GoldOctopus.Controls.ucTabelaMizanpaj();
             this.pageAyarlar = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.ucAyar1 = new GoldOctopus.Controls.ucAyar();
@@ -144,7 +144,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             this.pageUrunHavuzu.SuspendLayout();
             this.pageManuelTabela.SuspendLayout();
-            this.pageKayanYazi.SuspendLayout();
+            this.pageTabelaDuzeni.SuspendLayout();
             this.pageAyarlar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -346,7 +346,7 @@
             this.navigationPanel.Controls.Add(this.pageHarem);
             this.navigationPanel.Controls.Add(this.pageUrunHavuzu);
             this.navigationPanel.Controls.Add(this.pageManuelTabela);
-            this.navigationPanel.Controls.Add(this.pageKayanYazi);
+            this.navigationPanel.Controls.Add(this.pageTabelaDuzeni);
             this.navigationPanel.Controls.Add(this.pageAyarlar);
             this.navigationPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.navigationPanel.Location = new System.Drawing.Point(0, 0);
@@ -360,11 +360,11 @@
             this.navigationPanel.PageProperties.ShowMode = DevExpress.XtraBars.Navigation.ItemShowMode.ImageAndText;
             this.navigationPanel.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.pageTabela,
+            this.pageTabelaDuzeni,
             this.pageManuelTabela,
             this.pageSaglamoglu,
             this.pageHarem,
             this.pageUrunHavuzu,
-            this.pageKayanYazi,
             this.pageAyarlar});
             this.navigationPanel.RegularSize = new System.Drawing.Size(1198, 691);
             this.navigationPanel.SelectedPage = this.pageTabela;
@@ -380,14 +380,14 @@
             this.pageTabela.Properties.ShowCollapseButton = DevExpress.Utils.DefaultBoolean.False;
             this.pageTabela.Properties.ShowExpandButton = DevExpress.Utils.DefaultBoolean.False;
             this.pageTabela.Properties.ShowMode = DevExpress.XtraBars.Navigation.ItemShowMode.ImageAndText;
-            this.pageTabela.Size = new System.Drawing.Size(1036, 648);
+            this.pageTabela.Size = new System.Drawing.Size(1035, 648);
             // 
             // ucTabela1
             // 
             this.ucTabela1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucTabela1.Location = new System.Drawing.Point(0, 0);
             this.ucTabela1.Name = "ucTabela1";
-            this.ucTabela1.Size = new System.Drawing.Size(1036, 648);
+            this.ucTabela1.Size = new System.Drawing.Size(1035, 648);
             this.ucTabela1.TabIndex = 0;
             // 
             // pageSaglamoglu
@@ -396,7 +396,7 @@
             this.pageSaglamoglu.Controls.Add(this.gridSaglamoglu);
             this.pageSaglamoglu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pageSaglamoglu.ImageOptions.Image")));
             this.pageSaglamoglu.Name = "pageSaglamoglu";
-            this.pageSaglamoglu.Size = new System.Drawing.Size(1035, 644);
+            this.pageSaglamoglu.Size = new System.Drawing.Size(1198, 691);
             // 
             // gridSaglamoglu
             // 
@@ -404,7 +404,7 @@
             this.gridSaglamoglu.Location = new System.Drawing.Point(0, 0);
             this.gridSaglamoglu.MainView = this.tileView3;
             this.gridSaglamoglu.Name = "gridSaglamoglu";
-            this.gridSaglamoglu.Size = new System.Drawing.Size(1035, 644);
+            this.gridSaglamoglu.Size = new System.Drawing.Size(1198, 691);
             this.gridSaglamoglu.TabIndex = 5;
             this.gridSaglamoglu.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tileView3,
@@ -457,24 +457,24 @@
             this.tileView3.OptionsTiles.RowCount = 0;
             this.tileView3.OptionsTiles.ShowGroupText = false;
             this.tileView3.OptionsTiles.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Top;
-            tableColumnDefinition1.Length.Value = 99D;
-            tableColumnDefinition2.Length.Value = 99D;
-            tableColumnDefinition3.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
-            tableColumnDefinition3.Length.Value = 125D;
-            tableColumnDefinition4.Length.Value = 99D;
-            tableColumnDefinition5.Length.Value = 99D;
-            tableColumnDefinition6.Length.Value = 99D;
-            this.tileView3.TileColumns.Add(tableColumnDefinition1);
-            this.tileView3.TileColumns.Add(tableColumnDefinition2);
-            this.tileView3.TileColumns.Add(tableColumnDefinition3);
-            this.tileView3.TileColumns.Add(tableColumnDefinition4);
-            this.tileView3.TileColumns.Add(tableColumnDefinition5);
-            this.tileView3.TileColumns.Add(tableColumnDefinition6);
+            tableColumnDefinition13.Length.Value = 99D;
+            tableColumnDefinition14.Length.Value = 99D;
+            tableColumnDefinition15.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
+            tableColumnDefinition15.Length.Value = 125D;
+            tableColumnDefinition16.Length.Value = 99D;
+            tableColumnDefinition17.Length.Value = 99D;
+            tableColumnDefinition18.Length.Value = 99D;
+            this.tileView3.TileColumns.Add(tableColumnDefinition13);
+            this.tileView3.TileColumns.Add(tableColumnDefinition14);
+            this.tileView3.TileColumns.Add(tableColumnDefinition15);
+            this.tileView3.TileColumns.Add(tableColumnDefinition16);
+            this.tileView3.TileColumns.Add(tableColumnDefinition17);
+            this.tileView3.TileColumns.Add(tableColumnDefinition18);
             this.tileView3.TileHtmlTemplate.Styles = resources.GetString("tileView3.TileHtmlTemplate.Styles");
             this.tileView3.TileHtmlTemplate.Template = resources.GetString("tileView3.TileHtmlTemplate.Template");
-            tableRowDefinition1.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
-            tableRowDefinition1.Length.Value = 60D;
-            this.tileView3.TileRows.Add(tableRowDefinition1);
+            tableRowDefinition3.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
+            tableRowDefinition3.Length.Value = 60D;
+            this.tileView3.TileRows.Add(tableRowDefinition3);
             // 
             // tileViewColumn24
             // 
@@ -649,7 +649,7 @@
             this.pageHarem.Controls.Add(this.gridHaremAltin);
             this.pageHarem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pageHarem.ImageOptions.Image")));
             this.pageHarem.Name = "pageHarem";
-            this.pageHarem.Size = new System.Drawing.Size(1035, 644);
+            this.pageHarem.Size = new System.Drawing.Size(1198, 691);
             // 
             // gridHaremAltin
             // 
@@ -657,7 +657,7 @@
             this.gridHaremAltin.Location = new System.Drawing.Point(0, 0);
             this.gridHaremAltin.MainView = this.tileView1;
             this.gridHaremAltin.Name = "gridHaremAltin";
-            this.gridHaremAltin.Size = new System.Drawing.Size(1035, 644);
+            this.gridHaremAltin.Size = new System.Drawing.Size(1198, 691);
             this.gridHaremAltin.TabIndex = 6;
             this.gridHaremAltin.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tileView1,
@@ -710,24 +710,24 @@
             this.tileView1.OptionsTiles.RowCount = 0;
             this.tileView1.OptionsTiles.ShowGroupText = false;
             this.tileView1.OptionsTiles.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Top;
-            tableColumnDefinition7.Length.Value = 99D;
-            tableColumnDefinition8.Length.Value = 99D;
-            tableColumnDefinition9.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
-            tableColumnDefinition9.Length.Value = 125D;
-            tableColumnDefinition10.Length.Value = 99D;
-            tableColumnDefinition11.Length.Value = 99D;
-            tableColumnDefinition12.Length.Value = 99D;
-            this.tileView1.TileColumns.Add(tableColumnDefinition7);
-            this.tileView1.TileColumns.Add(tableColumnDefinition8);
-            this.tileView1.TileColumns.Add(tableColumnDefinition9);
-            this.tileView1.TileColumns.Add(tableColumnDefinition10);
-            this.tileView1.TileColumns.Add(tableColumnDefinition11);
-            this.tileView1.TileColumns.Add(tableColumnDefinition12);
+            tableColumnDefinition1.Length.Value = 99D;
+            tableColumnDefinition2.Length.Value = 99D;
+            tableColumnDefinition3.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
+            tableColumnDefinition3.Length.Value = 125D;
+            tableColumnDefinition4.Length.Value = 99D;
+            tableColumnDefinition5.Length.Value = 99D;
+            tableColumnDefinition6.Length.Value = 99D;
+            this.tileView1.TileColumns.Add(tableColumnDefinition1);
+            this.tileView1.TileColumns.Add(tableColumnDefinition2);
+            this.tileView1.TileColumns.Add(tableColumnDefinition3);
+            this.tileView1.TileColumns.Add(tableColumnDefinition4);
+            this.tileView1.TileColumns.Add(tableColumnDefinition5);
+            this.tileView1.TileColumns.Add(tableColumnDefinition6);
             this.tileView1.TileHtmlTemplate.Styles = resources.GetString("tileView1.TileHtmlTemplate.Styles");
             this.tileView1.TileHtmlTemplate.Template = resources.GetString("tileView1.TileHtmlTemplate.Template");
-            tableRowDefinition2.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
-            tableRowDefinition2.Length.Value = 60D;
-            this.tileView1.TileRows.Add(tableRowDefinition2);
+            tableRowDefinition1.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
+            tableRowDefinition1.Length.Value = 60D;
+            this.tileView1.TileRows.Add(tableRowDefinition1);
             // 
             // tileViewColumn1
             // 
@@ -902,14 +902,14 @@
             this.pageUrunHavuzu.Controls.Add(this.ucUrunHavuzu1);
             this.pageUrunHavuzu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pageUrunHavuzu.ImageOptions.Image")));
             this.pageUrunHavuzu.Name = "pageUrunHavuzu";
-            this.pageUrunHavuzu.Size = new System.Drawing.Size(1035, 644);
+            this.pageUrunHavuzu.Size = new System.Drawing.Size(1198, 691);
             // 
             // ucUrunHavuzu1
             // 
             this.ucUrunHavuzu1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucUrunHavuzu1.Location = new System.Drawing.Point(0, 0);
             this.ucUrunHavuzu1.Name = "ucUrunHavuzu1";
-            this.ucUrunHavuzu1.Size = new System.Drawing.Size(1035, 644);
+            this.ucUrunHavuzu1.Size = new System.Drawing.Size(1198, 691);
             this.ucUrunHavuzu1.TabIndex = 0;
             // 
             // pageManuelTabela
@@ -918,30 +918,30 @@
             this.pageManuelTabela.Controls.Add(this.ucManuelTabela1);
             this.pageManuelTabela.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pageManuelTabela.ImageOptions.Image")));
             this.pageManuelTabela.Name = "pageManuelTabela";
-            this.pageManuelTabela.Size = new System.Drawing.Size(1036, 648);
+            this.pageManuelTabela.Size = new System.Drawing.Size(1198, 691);
             // 
             // ucManuelTabela1
             // 
             this.ucManuelTabela1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucManuelTabela1.Location = new System.Drawing.Point(0, 0);
             this.ucManuelTabela1.Name = "ucManuelTabela1";
-            this.ucManuelTabela1.Size = new System.Drawing.Size(1036, 648);
+            this.ucManuelTabela1.Size = new System.Drawing.Size(1198, 691);
             this.ucManuelTabela1.TabIndex = 0;
             // 
-            // pageKayanYazi
+            // pageTabelaDuzeni
             // 
-            this.pageKayanYazi.Caption = "KAYAN YAZI";
-            this.pageKayanYazi.Controls.Add(this.ucTabelaMizanpaj1);
-            this.pageKayanYazi.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pageKayanYazi.ImageOptions.Image")));
-            this.pageKayanYazi.Name = "pageKayanYazi";
-            this.pageKayanYazi.Size = new System.Drawing.Size(1036, 648);
+            this.pageTabelaDuzeni.Caption = "TABELA DÜZENİ";
+            this.pageTabelaDuzeni.Controls.Add(this.ucTabelaMizanpaj1);
+            this.pageTabelaDuzeni.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pageKayanYazi.ImageOptions.Image")));
+            this.pageTabelaDuzeni.Name = "pageTabelaDuzeni";
+            this.pageTabelaDuzeni.Size = new System.Drawing.Size(1198, 691);
             // 
             // ucTabelaMizanpaj1
             // 
             this.ucTabelaMizanpaj1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucTabelaMizanpaj1.Location = new System.Drawing.Point(0, 0);
             this.ucTabelaMizanpaj1.Name = "ucTabelaMizanpaj1";
-            this.ucTabelaMizanpaj1.Size = new System.Drawing.Size(1036, 648);
+            this.ucTabelaMizanpaj1.Size = new System.Drawing.Size(1198, 691);
             this.ucTabelaMizanpaj1.TabIndex = 0;
             // 
             // pageAyarlar
@@ -950,14 +950,14 @@
             this.pageAyarlar.Controls.Add(this.ucAyar1);
             this.pageAyarlar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pageAyarlar.ImageOptions.Image")));
             this.pageAyarlar.Name = "pageAyarlar";
-            this.pageAyarlar.Size = new System.Drawing.Size(1006, 628);
+            this.pageAyarlar.Size = new System.Drawing.Size(1198, 691);
             // 
             // ucAyar1
             // 
             this.ucAyar1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ucAyar1.Location = new System.Drawing.Point(0, 0);
             this.ucAyar1.Name = "ucAyar1";
-            this.ucAyar1.Size = new System.Drawing.Size(1006, 628);
+            this.ucAyar1.Size = new System.Drawing.Size(1198, 691);
             this.ucAyar1.TabIndex = 0;
             // 
             // frmMain
@@ -991,7 +991,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             this.pageUrunHavuzu.ResumeLayout(false);
             this.pageManuelTabela.ResumeLayout(false);
-            this.pageKayanYazi.ResumeLayout(false);
+            this.pageTabelaDuzeni.ResumeLayout(false);
             this.pageAyarlar.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1024,7 +1024,7 @@
         private DevExpress.XtraBars.Navigation.NavigationPage pageHarem;
         private DevExpress.XtraBars.Navigation.NavigationPage pageManuelTabela;
         private DevExpress.XtraBars.Navigation.NavigationPage pageUrunHavuzu;
-        private DevExpress.XtraBars.Navigation.NavigationPage pageKayanYazi;
+        private DevExpress.XtraBars.Navigation.NavigationPage pageTabelaDuzeni;
         private DevExpress.XtraBars.Navigation.NavigationPage pageAyarlar;
         private Controls.ucTabela ucTabela1;
         private Controls.ucAyar ucAyar1;

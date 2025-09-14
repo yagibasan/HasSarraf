@@ -49,17 +49,15 @@ namespace GoldOctopus.Adaptors
 
                    
                     decimal.TryParse(item.Value.Alis, NumberStyles.Any, culture, out decimal alis);
-                    decimal.TryParse(item.Value.Satis, NumberStyles.Any, culture, out decimal satis); 
+                    decimal.TryParse(item.Value.Satis, NumberStyles.Any, culture, out decimal satis);
+                    
+                    
+                    if (UtilBL.Ayarlar.Simulasyon)
+                    {
+                        alis -= dateTime.Second;
+                        satis += dateTime.Second;
+                    }
 
-                    //if (true)
-                    //{
-                    //    int marjAlis = (int)(alis * 2 / 100);
-                    //    int marjSatis = (int)(satis * 2 / 100);
-                    //    alis = alis + (new Random().Next(-marjAlis, marjAlis));
-                    //    satis = satis + (new Random().Next(-marjSatis, marjSatis));
-                    //}
-
-                  
 
                     tabelaFiyat.AlisOrijinal = alis;
                     tabelaFiyat.SatisOrijinal = satis;

@@ -1,7 +1,6 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using log4net.Config;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
@@ -21,7 +20,7 @@ using log4net.Config;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a92c628f-6e48-4e35-9ba2-bf46ab9a9275")]
+[assembly: Guid("f8a8a4fb-31a3-484c-9ab5-5bec8fa24097")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,4 +31,3 @@ using log4net.Config;
 //
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: XmlConfigurator(ConfigFile = "log4net.config")]

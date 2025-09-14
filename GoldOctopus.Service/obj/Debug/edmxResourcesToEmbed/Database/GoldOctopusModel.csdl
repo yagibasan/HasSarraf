@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GoldOctopusDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Ayar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GorselDeger" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Deger" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Tip" Type="Int32" />
+    <Property Name="WebUrl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Parametre1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Parametre2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Parametre3" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DisTabela">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sira" Type="Int32" />
+    <Property Name="UrunAdi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Alis" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Satis" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Zaman" Type="DateTime" Precision="3" />
+    <Property Name="SatisText" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AlisText" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Grup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Adi" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="Sira" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Urun" Relationship="Self.fk_urungrup_grupid" FromRole="Grup" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Kaynak">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Kod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="WebUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="KaynakId" Type="Int32" />
+    <Property Name="Adi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Birim" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="GrupId" Type="Int32" />
+    <Property Name="Icon" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Sira" Type="Int32" />
+    <Property Name="TabeladaGoster" Type="Boolean" />
+    <Property Name="AnaEkrandaGoster" Type="Boolean" />
+    <Property Name="UrunKod" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="AlisMarjTur" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AlisOransal" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="AlisMiktar" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="SatisMarjTur" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SatisOransal" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="SatisMiktar" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="MilyemDegeri" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="SaglamogluUrunKod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HaremKod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Grup" Relationship="Self.fk_urungrup_grupid" FromRole="Urun" ToRole="Grup" />
+  </EntityType>
+  <Association Name="fk_urungrup_grupid">
+    <End Role="Grup" Type="Self.Grup" Multiplicity="0..1" />
+    <End Role="Urun" Type="Self.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grup">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="GrupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GoldOctopusDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ayar" EntityType="Self.Ayar" />
+    <EntitySet Name="DisTabela" EntityType="Self.DisTabela" />
+    <EntitySet Name="Grup" EntityType="Self.Grup" />
+    <EntitySet Name="Kaynak" EntityType="Self.Kaynak" />
+    <EntitySet Name="Urun" EntityType="Self.Urun" />
+    <AssociationSet Name="fk_urungrup_grupid" Association="Self.fk_urungrup_grupid">
+      <End Role="Grup" EntitySet="Grup" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.Utils.SuperToolTip superToolTip17 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem17 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip18 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem18 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip19 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem19 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip20 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem20 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.spinEditSatis = new DevExpress.XtraEditors.SpinEdit();
@@ -68,12 +68,10 @@
             // 
             this.tableLayoutPanel1.ColumnCount = 5;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 1F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 1F));
             this.tableLayoutPanel1.Controls.Add(this.spinEditSatis, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblFarkAlis, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblOrijinalAlisFiyati, 1, 0);
@@ -98,7 +96,7 @@
             0,
             0,
             0});
-            this.spinEditSatis.Location = new System.Drawing.Point(792, 3);
+            this.spinEditSatis.Location = new System.Drawing.Point(791, 3);
             this.spinEditSatis.Name = "spinEditSatis";
             this.spinEditSatis.Properties.AllowMouseWheel = false;
             this.spinEditSatis.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -124,8 +122,8 @@
             0});
             this.spinEditSatis.Properties.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.tableLayoutPanel1.SetRowSpan(this.spinEditSatis, 2);
-            this.spinEditSatis.Size = new System.Drawing.Size(144, 40);
-            this.spinEditSatis.TabIndex = 20;
+            this.spinEditSatis.Size = new System.Drawing.Size(244, 40);
+            this.spinEditSatis.TabIndex = 2;
             // 
             // lblFarkAlis
             // 
@@ -136,14 +134,15 @@
             this.lblFarkAlis.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.lblFarkAlis.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblFarkAlis.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblFarkAlis.Location = new System.Drawing.Point(542, 26);
+            this.lblFarkAlis.Location = new System.Drawing.Point(540, 26);
             this.lblFarkAlis.Name = "lblFarkAlis";
-            this.lblFarkAlis.Size = new System.Drawing.Size(94, 17);
-            toolTipItem17.Text = "Alış kârı";
-            superToolTip17.Items.Add(toolTipItem17);
-            this.lblFarkAlis.SuperTip = superToolTip17;
+            this.lblFarkAlis.Size = new System.Drawing.Size(1, 17);
+            toolTipItem5.Text = "Alış kârı";
+            superToolTip5.Items.Add(toolTipItem5);
+            this.lblFarkAlis.SuperTip = superToolTip5;
             this.lblFarkAlis.TabIndex = 10;
             this.lblFarkAlis.Text = "###";
+            this.lblFarkAlis.Visible = false;
             // 
             // lblOrijinalAlisFiyati
             // 
@@ -154,14 +153,15 @@
             this.lblOrijinalAlisFiyati.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.lblOrijinalAlisFiyati.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblOrijinalAlisFiyati.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblOrijinalAlisFiyati.Location = new System.Drawing.Point(542, 3);
+            this.lblOrijinalAlisFiyati.Location = new System.Drawing.Point(540, 3);
             this.lblOrijinalAlisFiyati.Name = "lblOrijinalAlisFiyati";
-            this.lblOrijinalAlisFiyati.Size = new System.Drawing.Size(94, 17);
-            toolTipItem18.Text = "Orijinal Alış Fiyatı";
-            superToolTip18.Items.Add(toolTipItem18);
-            this.lblOrijinalAlisFiyati.SuperTip = superToolTip18;
+            this.lblOrijinalAlisFiyati.Size = new System.Drawing.Size(1, 17);
+            toolTipItem6.Text = "Orijinal Alış Fiyatı";
+            superToolTip6.Items.Add(toolTipItem6);
+            this.lblOrijinalAlisFiyati.SuperTip = superToolTip6;
             this.lblOrijinalAlisFiyati.TabIndex = 9;
             this.lblOrijinalAlisFiyati.Text = "###";
+            this.lblOrijinalAlisFiyati.Visible = false;
             // 
             // lblOrijinalSatisFiyati
             // 
@@ -172,14 +172,15 @@
             this.lblOrijinalSatisFiyati.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblOrijinalSatisFiyati.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblOrijinalSatisFiyati.LineLocation = DevExpress.XtraEditors.LineLocation.Bottom;
-            this.lblOrijinalSatisFiyati.Location = new System.Drawing.Point(942, 3);
+            this.lblOrijinalSatisFiyati.Location = new System.Drawing.Point(1041, 3);
             this.lblOrijinalSatisFiyati.Name = "lblOrijinalSatisFiyati";
-            this.lblOrijinalSatisFiyati.Size = new System.Drawing.Size(94, 17);
-            toolTipItem19.Text = "Orijinal SatışFiyatı";
-            superToolTip19.Items.Add(toolTipItem19);
-            this.lblOrijinalSatisFiyati.SuperTip = superToolTip19;
+            this.lblOrijinalSatisFiyati.Size = new System.Drawing.Size(1, 17);
+            toolTipItem7.Text = "Orijinal SatışFiyatı";
+            superToolTip7.Items.Add(toolTipItem7);
+            this.lblOrijinalSatisFiyati.SuperTip = superToolTip7;
             this.lblOrijinalSatisFiyati.TabIndex = 9;
             this.lblOrijinalSatisFiyati.Text = "###";
+            this.lblOrijinalSatisFiyati.Visible = false;
             // 
             // lblFarkSatis
             // 
@@ -190,14 +191,15 @@
             this.lblFarkSatis.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblFarkSatis.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblFarkSatis.LineLocation = DevExpress.XtraEditors.LineLocation.Right;
-            this.lblFarkSatis.Location = new System.Drawing.Point(942, 26);
+            this.lblFarkSatis.Location = new System.Drawing.Point(1041, 26);
             this.lblFarkSatis.Name = "lblFarkSatis";
-            this.lblFarkSatis.Size = new System.Drawing.Size(94, 17);
-            toolTipItem20.Text = "Satış kârı";
-            superToolTip20.Items.Add(toolTipItem20);
-            this.lblFarkSatis.SuperTip = superToolTip20;
+            this.lblFarkSatis.Size = new System.Drawing.Size(1, 17);
+            toolTipItem8.Text = "Satış kârı";
+            superToolTip8.Items.Add(toolTipItem8);
+            this.lblFarkSatis.SuperTip = superToolTip8;
             this.lblFarkSatis.TabIndex = 10;
             this.lblFarkSatis.Text = "###";
+            this.lblFarkSatis.Visible = false;
             // 
             // spinEditAlis
             // 
@@ -207,7 +209,7 @@
             0,
             0,
             0});
-            this.spinEditAlis.Location = new System.Drawing.Point(642, 3);
+            this.spinEditAlis.Location = new System.Drawing.Point(541, 3);
             this.spinEditAlis.Name = "spinEditAlis";
             this.spinEditAlis.Properties.AllowMouseWheel = false;
             this.spinEditAlis.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -231,25 +233,25 @@
             0});
             this.spinEditAlis.Properties.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
             this.tableLayoutPanel1.SetRowSpan(this.spinEditAlis, 2);
-            this.spinEditAlis.Size = new System.Drawing.Size(144, 40);
-            this.spinEditAlis.TabIndex = 19;
+            this.spinEditAlis.Size = new System.Drawing.Size(244, 40);
+            this.spinEditAlis.TabIndex = 1;
             // 
             // txtUrunAdi
             // 
             this.txtUrunAdi.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtUrunAdi.Location = new System.Drawing.Point(3, 3);
             this.txtUrunAdi.Name = "txtUrunAdi";
-            this.txtUrunAdi.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.txtUrunAdi.Properties.Appearance.BackColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Hyperlink;
             this.txtUrunAdi.Properties.Appearance.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtUrunAdi.Properties.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Hyperlink;
+            this.txtUrunAdi.Properties.Appearance.ForeColor = System.Drawing.Color.White;
             this.txtUrunAdi.Properties.Appearance.Options.UseBackColor = true;
             this.txtUrunAdi.Properties.Appearance.Options.UseFont = true;
             this.txtUrunAdi.Properties.Appearance.Options.UseForeColor = true;
             this.txtUrunAdi.Properties.AutoHeight = false;
             this.txtUrunAdi.Properties.NullText = "Ürün adı giriniz....";
             this.tableLayoutPanel1.SetRowSpan(this.txtUrunAdi, 2);
-            this.txtUrunAdi.Size = new System.Drawing.Size(533, 40);
-            this.txtUrunAdi.TabIndex = 21;
+            this.txtUrunAdi.Size = new System.Drawing.Size(531, 40);
+            this.txtUrunAdi.TabIndex = 0;
             // 
             // ucUrunItem
             // 

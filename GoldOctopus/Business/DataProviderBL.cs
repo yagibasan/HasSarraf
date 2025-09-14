@@ -77,7 +77,7 @@ namespace GoldOctopus.Business
 
         public void ExecuteJobs()
         {
-           // new Thread(() => ExecuteSaglamoglu()).Start();
+            new Thread(() => ExecuteSaglamoglu()).Start();
             new Thread(() => ExecuteHarem()).Start();
         }
 

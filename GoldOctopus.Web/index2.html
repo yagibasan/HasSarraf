@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+      body {
+        padding: 0px;
+        margin: 0px;
+        background-color: black;
+      }
+      .img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        height: 416px;
+      }
+
+      iframe {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        height: 412px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-swiper-autoplay="8000">
+            <iframe src="template4.html"></iframe>
+          </div>
+          <div class="swiper-slide" data-swiper-autoplay="3000">
+            <img class="img" src="./assets/image/kadinlar-gunu.png" />
+          </div>
+          <div class="swiper-slide" data-swiper-autoplay="8000">
+            <iframe src="template3.html"></iframe>
+          </div>
+          <div class="swiper-slide" data-swiper-autoplay="3000">
+            <img class="img" src="./assets/image/yilbasi.gif" />
+          </div>
+          <div class="swiper-slide" data-swiper-autoplay="8000">
+            <iframe src="template2.html"></iframe>
+          </div>
+          <div class="swiper-slide" data-swiper-autoplay="3000">
+            <img class="img" src="./assets/image/babalar-gunu.jpg" />
+          </div>
+
+          <!-- <div class="swiper-slide">
+            <img class="imgBayrak" src="./assets/image/kadinlar-gunu.png" />
+          </div>
+
+          <div class="swiper-slide">
+            <img class="imgBayrak" src="./assets/image/yilbasi.gif" />
+          </div>
+
+          <div class="swiper-slide">
+            <img class="imgBayrak" src="./assets/image/sevgililer-gunu.png" />
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        loop: true,
+        centeredSlides: false,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false
+        }
+      });
+    </script>
+  </body>
+</html>

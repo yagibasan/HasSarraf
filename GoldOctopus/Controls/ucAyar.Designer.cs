@@ -59,6 +59,7 @@
             this.pictureSablon3 = new DevExpress.XtraEditors.PictureEdit();
             this.btnIptal = new DevExpress.XtraEditors.SimpleButton();
             this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
+            this.checkSimulasyon = new DevExpress.XtraEditors.CheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.radioKaynak.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinGuncellemePeriyodu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -83,6 +84,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureSablon1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureSablon2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureSablon3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkSimulasyon.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl3
@@ -92,7 +94,7 @@
             this.labelControl3.LineVisible = true;
             this.labelControl3.Location = new System.Drawing.Point(23, 74);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(35, 13);
+            this.labelControl3.Size = new System.Drawing.Size(36, 13);
             this.labelControl3.TabIndex = 11;
             this.labelControl3.Text = "Kaynak";
             this.labelControl3.Click += new System.EventHandler(this.labelControl3_Click);
@@ -120,7 +122,7 @@
             this.labelControl1.LineVisible = true;
             this.labelControl1.Location = new System.Drawing.Point(23, 106);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(34, 13);
+            this.labelControl1.Size = new System.Drawing.Size(35, 13);
             this.labelControl1.TabIndex = 13;
             this.labelControl1.Text = "Periyot";
             // 
@@ -190,6 +192,7 @@
             // 
             this.groupControl2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupControl2.CaptionImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("groupControl2.CaptionImageOptions.Image")));
+            this.groupControl2.Controls.Add(this.checkSimulasyon);
             this.groupControl2.Controls.Add(this.checkFarkDeger);
             this.groupControl2.Controls.Add(this.checkOrijinalDeger);
             this.groupControl2.Controls.Add(this.checkMilyem);
@@ -205,7 +208,7 @@
             // 
             // checkFarkDeger
             // 
-            this.checkFarkDeger.Location = new System.Drawing.Point(10, 168);
+            this.checkFarkDeger.Location = new System.Drawing.Point(10, 152);
             this.checkFarkDeger.Name = "checkFarkDeger";
             this.checkFarkDeger.Properties.Caption = "Fark Değerini Göster";
             this.checkFarkDeger.Size = new System.Drawing.Size(340, 20);
@@ -213,7 +216,7 @@
             // 
             // checkOrijinalDeger
             // 
-            this.checkOrijinalDeger.Location = new System.Drawing.Point(10, 137);
+            this.checkOrijinalDeger.Location = new System.Drawing.Point(10, 125);
             this.checkOrijinalDeger.Name = "checkOrijinalDeger";
             this.checkOrijinalDeger.Properties.Caption = "Orijinal Değeri Göster";
             this.checkOrijinalDeger.Size = new System.Drawing.Size(340, 20);
@@ -221,7 +224,7 @@
             // 
             // checkMilyem
             // 
-            this.checkMilyem.Location = new System.Drawing.Point(10, 106);
+            this.checkMilyem.Location = new System.Drawing.Point(10, 98);
             this.checkMilyem.Name = "checkMilyem";
             this.checkMilyem.Properties.Caption = "Veri kaynağında \"Milyem\" değeri varsa göster";
             this.checkMilyem.Size = new System.Drawing.Size(340, 20);
@@ -234,7 +237,7 @@
             0,
             0,
             0});
-            this.spinDovizOndalikAdet.Location = new System.Drawing.Point(250, 74);
+            this.spinDovizOndalikAdet.Location = new System.Drawing.Point(250, 70);
             this.spinDovizOndalikAdet.Name = "spinDovizOndalikAdet";
             this.spinDovizOndalikAdet.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.spinDovizOndalikAdet.Properties.Appearance.Options.UseFont = true;
@@ -261,7 +264,7 @@
             // 
             // checkDovizOndalikGoster
             // 
-            this.checkDovizOndalikGoster.Location = new System.Drawing.Point(10, 75);
+            this.checkDovizOndalikGoster.Location = new System.Drawing.Point(10, 71);
             this.checkDovizOndalikGoster.Name = "checkDovizOndalikGoster";
             this.checkDovizOndalikGoster.Properties.Caption = "Dövizde ondalık değeri göster";
             this.checkDovizOndalikGoster.Size = new System.Drawing.Size(190, 20);
@@ -393,7 +396,7 @@
             this.labelControl2.LineVisible = true;
             this.labelControl2.Location = new System.Drawing.Point(16, 48);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(161, 13);
+            this.labelControl2.Size = new System.Drawing.Size(173, 13);
             this.labelControl2.TabIndex = 23;
             this.labelControl2.Text = "Tabelada Gösterilecek Ürün Sayısı";
             // 
@@ -524,6 +527,14 @@
             this.btnKaydet.Text = "KAYDET";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
+            // checkSimulasyon
+            // 
+            this.checkSimulasyon.Location = new System.Drawing.Point(10, 179);
+            this.checkSimulasyon.Name = "checkSimulasyon";
+            this.checkSimulasyon.Properties.Caption = "Simulasyon";
+            this.checkSimulasyon.Size = new System.Drawing.Size(340, 20);
+            this.checkSimulasyon.TabIndex = 22;
+            // 
             // ucAyar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -563,6 +574,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureSablon1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureSablon2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureSablon3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkSimulasyon.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -599,5 +611,6 @@
         private DevExpress.XtraEditors.SimpleButton btnKaydet;
         private DevExpress.XtraEditors.SeparatorControl separatorControl1;
         private DevExpress.XtraEditors.CheckEdit chkOtomatikVeriAl;
+        private DevExpress.XtraEditors.CheckEdit checkSimulasyon;
     }
 }

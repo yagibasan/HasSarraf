@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #111;
+    color: #fff;
+
+
+
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0px;
+    border: dashed red 0px;
+    width: 260px;
+    max-width: 260px;
+    height: 416 !important;
+    max-height: 416 !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table-header,
+.table-row {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.cell {
+    flex: 1;
+    text-align: center;
+    padding: 6px 2px;
+    margin: 2px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.table-header .title {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+.table-header .buy {
+    background-color: #333;
+    color: #00ccff;
+}
+
+.table-header .sell {
+    background-color: #333;
+    color: #ff6699;
+}
+
+.title {
+    background-color: #222;
+    color: #ffffff;
+    text-align: left;
+    letter-spacing: -0.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.valueSubTitle {
+    font-size: 50%;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: orangered;
+    padding: 2px 4px;
+    border-radius: 6px;
+}
+
+.valueTitle {
+    transform: scale(1.1) !important;
+    margin-left: 0px;
+    transform-origin: left center !important;
+}
+
+.buy {
+    background-color: #004466;
+    color: #00ffff;
+}
+
+.value {
+    transform: scale(1.6) !important;
+}
+
+.sell {
+    background-color: #660022;
+    color: #ffcccc;
+}

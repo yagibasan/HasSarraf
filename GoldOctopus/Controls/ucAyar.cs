@@ -21,6 +21,10 @@ namespace GoldOctopus.Controls
             chkOtomatikVeriAl.EditValue = Ayarlar.OtomatikVeriAl;
             chkOtomatikVeriAl.DataBindings.Add(new Binding("EditValue", Ayarlar, "OtomatikVeriAl", true, DataSourceUpdateMode.OnPropertyChanged));
 
+            checkSimulasyon.DataBindings.Clear();
+            checkSimulasyon.EditValue = Ayarlar.Simulasyon;
+            checkSimulasyon.DataBindings.Add(new Binding("EditValue", Ayarlar, "Simulasyon", true, DataSourceUpdateMode.OnPropertyChanged));
+
             radioKaynak.DataBindings.Clear();
             radioKaynak.EditValue = Ayarlar.Kaynak;
             radioKaynak.DataBindings.Add(new Binding("EditValue", Ayarlar, "Kaynak", true, DataSourceUpdateMode.OnPropertyChanged));

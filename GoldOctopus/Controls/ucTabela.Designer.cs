@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition1 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition2 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition3 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition4 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition5 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
-            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition6 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition7 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition8 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition9 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition10 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition11 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
+            DevExpress.XtraEditors.TableLayout.TableColumnDefinition tableColumnDefinition12 = new DevExpress.XtraEditors.TableLayout.TableColumnDefinition();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucTabela));
-            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition1 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
+            DevExpress.XtraEditors.TableLayout.TableRowDefinition tableRowDefinition2 = new DevExpress.XtraEditors.TableLayout.TableRowDefinition();
             this.gridTabela = new DevExpress.XtraGrid.GridControl();
             this.tileView2 = new DevExpress.XtraGrid.Views.Tile.TileView();
             this.tileViewColumn1 = new DevExpress.XtraGrid.Columns.TileViewColumn();
@@ -73,6 +73,7 @@
             this.s2 = new DevExpress.XtraEditors.SeparatorControl();
             this.s3 = new DevExpress.XtraEditors.SeparatorControl();
             this.s1 = new DevExpress.XtraEditors.SeparatorControl();
+            this.lblSimulasyon = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.gridTabela)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tileView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
@@ -139,24 +140,24 @@
             this.tileView2.OptionsTiles.RowCount = 0;
             this.tileView2.OptionsTiles.ShowGroupText = false;
             this.tileView2.OptionsTiles.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Top;
-            tableColumnDefinition1.Length.Value = 99D;
-            tableColumnDefinition2.Length.Value = 99D;
-            tableColumnDefinition3.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
-            tableColumnDefinition3.Length.Value = 125D;
-            tableColumnDefinition4.Length.Value = 99D;
-            tableColumnDefinition5.Length.Value = 99D;
-            tableColumnDefinition6.Length.Value = 99D;
-            this.tileView2.TileColumns.Add(tableColumnDefinition1);
-            this.tileView2.TileColumns.Add(tableColumnDefinition2);
-            this.tileView2.TileColumns.Add(tableColumnDefinition3);
-            this.tileView2.TileColumns.Add(tableColumnDefinition4);
-            this.tileView2.TileColumns.Add(tableColumnDefinition5);
-            this.tileView2.TileColumns.Add(tableColumnDefinition6);
+            tableColumnDefinition7.Length.Value = 99D;
+            tableColumnDefinition8.Length.Value = 99D;
+            tableColumnDefinition9.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
+            tableColumnDefinition9.Length.Value = 125D;
+            tableColumnDefinition10.Length.Value = 99D;
+            tableColumnDefinition11.Length.Value = 99D;
+            tableColumnDefinition12.Length.Value = 99D;
+            this.tileView2.TileColumns.Add(tableColumnDefinition7);
+            this.tileView2.TileColumns.Add(tableColumnDefinition8);
+            this.tileView2.TileColumns.Add(tableColumnDefinition9);
+            this.tileView2.TileColumns.Add(tableColumnDefinition10);
+            this.tileView2.TileColumns.Add(tableColumnDefinition11);
+            this.tileView2.TileColumns.Add(tableColumnDefinition12);
             this.tileView2.TileHtmlTemplate.Styles = resources.GetString("tileView2.TileHtmlTemplate.Styles");
             this.tileView2.TileHtmlTemplate.Template = resources.GetString("tileView2.TileHtmlTemplate.Template");
-            tableRowDefinition1.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
-            tableRowDefinition1.Length.Value = 60D;
-            this.tileView2.TileRows.Add(tableRowDefinition1);
+            tableRowDefinition2.Length.Type = DevExpress.XtraEditors.TableLayout.TableDefinitionLengthType.Pixel;
+            tableRowDefinition2.Length.Value = 60D;
+            this.tileView2.TileRows.Add(tableRowDefinition2);
             this.tileView2.DoubleClick += new System.EventHandler(this.tileView2_DoubleClick);
             // 
             // tileViewColumn1
@@ -360,6 +361,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.lblSimulasyon);
             this.panel1.Controls.Add(this.btnManuelRefresh);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Controls.Add(this.btnDisTabela);
@@ -401,7 +403,7 @@
             this.btnDisTabela.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDisTabela.Location = new System.Drawing.Point(614, 11);
             this.btnDisTabela.Name = "btnDisTabela";
-            this.btnDisTabela.Size = new System.Drawing.Size(92, 13);
+            this.btnDisTabela.Size = new System.Drawing.Size(98, 13);
             this.btnDisTabela.TabIndex = 8;
             this.btnDisTabela.Text = "Dış Tabelayı Göster";
             this.btnDisTabela.Click += new System.EventHandler(this.btnDisTabela_Click);
@@ -484,6 +486,19 @@
             this.s1.Size = new System.Drawing.Size(6, 455);
             this.s1.TabIndex = 4;
             // 
+            // lblSimulasyon
+            // 
+            this.lblSimulasyon.Appearance.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblSimulasyon.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Critical;
+            this.lblSimulasyon.Appearance.Options.UseFont = true;
+            this.lblSimulasyon.Appearance.Options.UseForeColor = true;
+            this.lblSimulasyon.Location = new System.Drawing.Point(294, 9);
+            this.lblSimulasyon.Name = "lblSimulasyon";
+            this.lblSimulasyon.Size = new System.Drawing.Size(355, 17);
+            this.lblSimulasyon.TabIndex = 11;
+            this.lblSimulasyon.Text = "!!! SİMULASYON VERİLERİ AÇIK. VERİLER DOĞRU DEĞİL !!!";
+            this.lblSimulasyon.Visible = false;
+            // 
             // ucTabela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -546,5 +561,6 @@
         private DevExpress.XtraEditors.HyperlinkLabelControl btnDisTabela;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private DevExpress.XtraEditors.SimpleButton btnManuelRefresh;
+        private DevExpress.XtraEditors.LabelControl lblSimulasyon;
     }
 }

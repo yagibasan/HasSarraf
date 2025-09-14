@@ -23,182 +23,185 @@ cursive;
 
 /* Used Google Fonts */
 * {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    padding: 0px;
-    margin: 0px;
+background-color: yellow;
+color: white;
+font-family: 'Oswald', sans-serif;
+font-stretch: condensed; 
+
+padding: 0px;
+margin: 0px;
 
 
 }
 
-.tablo {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    border-spacing: 0;
+.table{
+margin: 0px; 
 }
-
-/* Brand Name Styles */
-
 
 .sirket-adi-row {
-    height: 65px;
+background: #fff;
+text-align: center;
+border: none;
+border: 1px solid red;
 
 }
 
-.sirket-adi h3 {
-    height: 65px;
-    width: 100%;
-    background: #fff;
-    border-top-left-radius: 32px;
-    border-bottom-right-radius: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #D4AF37;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 1.3;
-    font-weight: bold;
-    margin: 0px;
+.sirket-adi {
+width: 100%;
+text-align: center;
+margin: 0 auto;
+background: #fff;
+color: #34495e;
+text-align: center;
 }
+
+.sirket-adi hr {
+height: 1px;
+margin-top: 0px;
+color: #34495e;
+}
+
+
+.line1 {
+letter-spacing: 9px;
+font-size: 40px; 
+font-weight: bold; 
+margin-top: -10px;  
+}
+
+
+.line2 {
+letter-spacing: 7px;    
+
+font-size: 26px;
+margin-top: -15px; font-weight: bold; 
+}
+
+.line3 {
+letter-spacing: 2px;
+font-size: 16px;
+line-height: 20px;
+margin: 0px 60px;
+border-top: solid 1px #34495e;
+padding-bottom: 5px;  
+}
+
+
 
 .kayan-yazi {
-    font-size: 14px;
-    letter-spacing: 7px;
-    text-transform: uppercase;
-    background: #34495e;
-    font-weight: 400;
-    color: #fff;
-    padding-left: 3px;
-    line-height: 26px;
-    height: 24px;
-    font-weight: bold;
+font-size: 22px;
+letter-spacing: 7px;
+text-transform: uppercase;
+background: #34495e;
+font-weight: 400;
+color: #fff;
+padding-left: 3px;
+line-height: 36px;
+height: 36px;
+font-weight: bold;
+margin: -1px;
 }
 
-.sirket-adi span {
-    background: #D4AF37;
-    color: #fff;
-    display: inline-block;
-    line-height: 1.8;
-    padding: 0 16px;
-    margin-left: 5px;
+.alerts-border {
+border: 4px #34495e solid;
+animation: blink 1s;
+animation-iteration-count: infinite;
 }
 
-
-.gorsel-yazi-row {
-    height: 20px;
-    vertical-align: middle;
+@keyframes blink {
+50% {
+border-color: #fff;
+}
 }
 
-.gorsel-yazi {
-    margin-top: 3px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-    color: #D4AF37;
-    letter-spacing: 2px;
-    padding: 0px 0px;
-
-    font-style: italic;
-}
-
-
-.urun-label {
-    width: 100%;
-    font-size: 90%;
-    white-space: nowrap;
-
-
-    vertical-align: middle;
-    padding-left: 4px;
-    font-weight: bold;
-}
-
-.alis-label {
-    width: 70px;
-    max-width: 70px;
-    text-align: right;
-    padding-right: 8px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    color: yellowgreen;
-}
-
-.satis-label {
-    width: 70px;
-    max-width: 70px;
-    text-align: right;
-    padding-right: 4px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    color: white;
-}
 
 .footer-label {
-    font-size: 11px;
-    height: 20px;
-    line-height: 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    background-color: maroon;
-    text-align: center;
-    border-top: solid 1px white;
+font-size: 12px;    
+letter-spacing: 0.2px;
+background-color: maroon;
+text-align: center;
+border-top: solid 1px white;
+}
+.footer-label span {
+font-weight: bold;    
+padding: 1px 4px;
+border:solid 1px white;
+background-color: white;
+color: maroon;
+border-radius: 8px;
 }
 
-.urun-deger {
+.container
+{
+padding: 0px 10px;     
+max-width:100% !important; 
+position:relative;
+}
 
-    font-size: 90%;
-    white-space: nowrap;
-    border-top: solid 1px #D4AF37;
-    height: 28px;
-    line-height: 28px;
-    vertical-align: middle;
-    padding-left: 4px;
+.row{
+height: 42px;  
+vertical-align: middle;  
+font-size: 20px; 
+letter-spacing: -1px;
+background-color: yellow;
+transform: scaleY(1.3) !important;
+
+
+}
+.urunAdi {     
+white-space: nowrap;
+/*border-top: solid 1px #D4AF37;*/
+font-weight: bold;
+background-color: yellow;
+color:black;
+border:1px solid black;
+max-width:46% !important;
+width:46% !important;
+padding-left:5px;
+font-size:120%;
 
 }
 
 .alis-deger {
-    width: 70px;
-    text-align: right;
-    padding-right: 8px;
-    white-space: nowrap;
-    border-top: solid 1px #D4AF37;
-    height: 28px;
-    line-height: 28px;
-    vertical-align: middle;
-    font-weight: bold;
-    color: yellowgreen;
+
+text-align: center !important;
+padding:0px;
+white-space: nowrap;     
+vertical-align: middle;
+font-weight: bold;  
+font-size:120%; 
+border:1px solid black; 
+max-width:27% !important;
+width:27% !important; 
+background-color:maroon;
+color:lightred;
+text-shadow:2px 2px black;
 
 }
 
-
-
-.oddRow {
-    background-color: #444;
-}
 
 .satis-deger {
-    width: 70px;
-    text-align: right;
-    padding-right: 4px;
-    white-space: nowrap;
-    border-top: solid 1px #D4AF37;
-    height: 28px;
-    line-height: 28px;
-    vertical-align: middle;
-    font-weight: bold;
-    color: white;
-    /* Beyaz gölge */
+text-align: center !important;
+white-space: nowrap;
+/*border-top: solid 1px #D4AF37;*/
+vertical-align: middle;
+font-weight: bold;
+font-size:120%;
+/*-shadow: 2px 2px white;*/
+ border:1px solid black;
+max-width:27% !important;
+width:27% !important;
+background-color:darkgreen;
+color:lime;
+text-shadow:2px 2px black;
+
+}
+
+.oddRow {
 }

@@ -233,14 +233,21 @@ namespace GoldOctopus.Business
             else
                 karMarji = 0;
 
+            decimal sonuc = 0;
             if (IslemTuru.Alis == islemTuru)
-                return deger + karMarji;
+                sonuc = deger - karMarji;
             else if (IslemTuru.Satis == islemTuru)
-                return deger + karMarji;
+                sonuc = deger + karMarji;
             else
-                return deger;
+                sonuc= deger;
 
+            if (sonuc % 10 < 6)
+                sonuc -= sonuc % 10;
+            else
 
+                sonuc += 10 - (sonuc % 10);
+
+            return sonuc;
         }
 
 

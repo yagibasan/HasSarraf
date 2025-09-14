@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GoldOctopusDBModelStoreContainer" CdmEntityContainer="GoldOctopusDBEntities">
+    <EntitySetMapping Name="Ayar">
+      <EntityTypeMapping TypeName="GoldOctopusDBModel.Ayar">
+        <MappingFragment StoreEntitySet="Ayar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Kod" ColumnName="Kod" />
+          <ScalarProperty Name="GorselDeger" ColumnName="GorselDeger" />
+          <ScalarProperty Name="Deger" ColumnName="Deger" />
+          <ScalarProperty Name="Tip" ColumnName="Tip" />
+          <ScalarProperty Name="WebUrl" ColumnName="WebUrl" />
+          <ScalarProperty Name="Parametre1" ColumnName="Parametre1" />
+          <ScalarProperty Name="Parametre2" ColumnName="Parametre2" />
+          <ScalarProperty Name="Parametre3" ColumnName="Parametre3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DisTabela">
+      <EntityTypeMapping TypeName="GoldOctopusDBModel.DisTabela">
+        <MappingFragment StoreEntitySet="DisTabela">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="Alis" ColumnName="Alis" />
+          <ScalarProperty Name="Satis" ColumnName="Satis" />
+          <ScalarProperty Name="Zaman" ColumnName="Zaman" />
+          <ScalarProperty Name="SatisText" ColumnName="SatisText" />
+          <ScalarProperty Name="AlisText" ColumnName="AlisText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grup">
+      <EntityTypeMapping TypeName="GoldOctopusDBModel.Grup">
+        <MappingFragment StoreEntitySet="Grup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kaynak">
+      <EntityTypeMapping TypeName="GoldOctopusDBModel.Kaynak">
+        <MappingFragment StoreEntitySet="Kaynak">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Kod" ColumnName="Kod" />
+          <ScalarProperty Name="WebUrl" ColumnName="WebUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urun">
+      <EntityTypeMapping TypeName="GoldOctopusDBModel.Urun">
+        <MappingFragment StoreEntitySet="Urun">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KaynakId" ColumnName="KaynakId" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Birim" ColumnName="Birim" />
+          <ScalarProperty Name="GrupId" ColumnName="GrupId" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+          <ScalarProperty Name="TabeladaGoster" ColumnName="TabeladaGoster" />
+          <ScalarProperty Name="AnaEkrandaGoster" ColumnName="AnaEkrandaGoster" />
+          <ScalarProperty Name="UrunKod" ColumnName="UrunKod" />
+          <ScalarProperty Name="AlisMarjTur" ColumnName="AlisMarjTur" />
+          <ScalarProperty Name="AlisOransal" ColumnName="AlisOransal" />
+          <ScalarProperty Name="AlisMiktar" ColumnName="AlisMiktar" />
+          <ScalarProperty Name="SatisMarjTur" ColumnName="SatisMarjTur" />
+          <ScalarProperty Name="SatisOransal" ColumnName="SatisOransal" />
+          <ScalarProperty Name="SatisMiktar" ColumnName="SatisMiktar" />
+          <ScalarProperty Name="MilyemDegeri" ColumnName="MilyemDegeri" />
+          <ScalarProperty Name="SaglamogluUrunKod" ColumnName="SaglamogluUrunKod" />
+          <ScalarProperty Name="HaremKod" ColumnName="HaremKod" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

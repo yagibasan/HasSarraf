@@ -162,12 +162,12 @@
 	{
 		"urunKodu": "yeni_ziynet_5_try",
 		"urunKoduSaglamoglu": "yeni-ziynet-5-try",
-		"urunKoduHarem": "YOK"
+		"urunKoduHarem": "ATA5_YENI"
 	},
 	{
 		"urunKodu": "eski_ziynet_5_try",
 		"urunKoduSaglamoglu": "eski-ziynet-5-try",
-		"urunKoduHarem": "YOK"
+		"urunKoduHarem": "ATA5_ESKI"
 	},
 	{
 		"urunKodu": "yeni_ata_ceyrek_try",

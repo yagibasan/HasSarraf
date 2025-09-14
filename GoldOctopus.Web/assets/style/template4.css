@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #000;
+    width: 260px;
+    height: 416px !important;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table-detailed {
+    display: flex;
+    background-color: #444;
+    border-radius: 8px;
+    margin: 2px;
+    color: #fff;
+}
+
+.table-detailed .left {
+    flex: 4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 2px;
+
+
+}
+
+.left img {
+    height: 48px;
+    width: 48px;
+}
+
+.table-detailed .right {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.table-detailed .top {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+
+.large-cell {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.buy-caption {
+    background-color: maroon;
+    font-size: 14px;
+    padding-left: 2px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    border-left: 1px solid #fff;
+
+
+}
+
+.buy-price {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    flex: 6;
+    align-self: center;
+    background-color: maroon;
+    border-top-right-radius: 8px;
+    text-shadow: 2px 2px black;
+}
+
+.sell-caption {
+    background-color: green;
+    font-size: 14px;
+    padding-left: 2px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.sell-price {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    flex: 6;
+    align-self: center;
+    background-color: darkgreen;
+    color: lime;
+    text-shadow: 2px 2px black;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid #fff;
+}
+
+
+
+.table-header,
+.table-row {
+    display: flex;
+    margin: 4px;
+    border-radius: 8px;
+    background-color: #444;
+    justify-content: center;
+}
+
+
+.cell {
+    text-align: center;
+    font-weight: 700;
+    flex: 1;
+    font-size: 19.2px;
+}
+
+.title {
+    color: #fff;
+    text-align: left;
+    letter-spacing: 0px;
+    padding-left: 10px;
+    flex: 3;
+}
+
+.buy {
+    background-color: maroon;
+    flex: 2;
+    color: lightcoral;
+}
+
+.sell {
+    background-color: darkgreen;
+    color: lime;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    flex: 2;
+}
+
+.companyName {
+    padding: 0px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+}

@@ -33,6 +33,7 @@ namespace GoldOctopus.Controls
             List<TabelaFiyatDto> tabelaFiyats = new List<TabelaFiyatDto>();
             var tabelaUrunleri = UtilBL.Urunler.Where(p => p.TabeladaGoster).OrderByDescending(p => p.Sira).ToList();
             tabelaFiyats.Clear();
+            int i = 999;
             foreach (var item in tabelaUrunleri)
             {
                 TabelaFiyatDto tabelaFiyat = null;
@@ -54,6 +55,7 @@ namespace GoldOctopus.Controls
 
                 ucUrunItem urunItem = new ucUrunItem(tabelaFiyat); 
                 urunItem.Dock = DockStyle.Top;
+                urunItem.TabIndex = i--;
 
                 panel1.Controls.Add(urunItem);
 

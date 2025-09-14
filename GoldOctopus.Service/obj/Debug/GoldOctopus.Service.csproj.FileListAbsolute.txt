@@ -1,0 +1,2 @@
+D:\00-Projects\GoldOctopus\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.csproj.AssemblyReference.cache
+D:\00-Projects\GoldOctopus\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.csproj.CoreCompileInputs.cache

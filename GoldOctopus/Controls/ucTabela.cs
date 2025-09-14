@@ -24,24 +24,26 @@ namespace GoldOctopus.Controls
             InitializeComponent();        
         }
 
-        public void Bind()
+        public void Bind(bool init=true)
         {
-           
-            DataProviderBL.GetInstance().TabelaFiyatlariGuncellendi += UcTabela_TabelaFiyatlariGuncellendi;
-            ucAyar.AyarlarDegistirildi += UcAyar_AyarlarDegistirildi;
+
+            if (init)
+            {
+                DataProviderBL.GetInstance().TabelaFiyatlariGuncellendi += UcTabela_TabelaFiyatlariGuncellendi;
+                ucAyar.AyarlarDegistirildi += UcAyar_AyarlarDegistirildi;
+            }
 
             SetToggleButton();
             DoldurEkran();
 
             s1.Visible = s2.Visible = s3.Visible = s4.Visible = !UtilBL.Ayarlar.OtomatikVeriAl;
+
+            lblSimulasyon.Visible = UtilBL.Ayarlar.Simulasyon;
         }
 
         private void UcAyar_AyarlarDegistirildi(object sender, EventArgs e)
         {
-            SetToggleButton();
-            DoldurEkran();
-
-            s1.Visible = s2.Visible = s3.Visible = s4.Visible = !UtilBL.Ayarlar.OtomatikVeriAl;
+            Bind(false);
         }
 
         void SetToggleButton()
