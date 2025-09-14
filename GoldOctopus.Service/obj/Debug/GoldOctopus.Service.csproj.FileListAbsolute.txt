@@ -1,2 +1,9 @@
 D:\00-Projects\GoldOctopus\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.csproj.AssemblyReference.cache
 D:\00-Projects\GoldOctopus\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.csproj.CoreCompileInputs.cache
+D:\00-Projects\GoldOctopus\GoldOctopus.Service\bin\Debug\GoldOctopus.Service.dll.config
+D:\00-Projects\GoldOctopus\GoldOctopus.Service\bin\Debug\GoldOctopus.Service.dll
+D:\00-Projects\GoldOctopus\GoldOctopus.Service\bin\Debug\GoldOctopus.Service.pdb
+D:\00-Projects\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.csproj.AssemblyReference.cache
+D:\00-Projects\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.csproj.CoreCompileInputs.cache
+D:\00-Projects\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.dll
+D:\00-Projects\GoldOctopus\GoldOctopus.Service\obj\Debug\GoldOctopus.Service.pdb
